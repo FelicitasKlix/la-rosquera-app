@@ -1,0 +1,52 @@
+# === General ===
+.DS_Store
+.env
+.env.*  
+*.log
+*.sqlite3
+*.pyc
+__pycache__/
+node_modules/
+dist/
+build/
+.vscode/
+.idea/
+*.iml
+
+# === Python / Poetry ===
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/.coverage
+backend/htmlcov/
+backend/poetry.lock
+
+# === FastAPI ===
+backend/.uvicorn/
+backend/*.db
+
+# === React Native / Expo ===
+frontend/node_modules/
+frontend/.expo/
+frontend/.expo-shared/
+frontend/web-build/
+frontend/.cache/
+frontend/*.log
+
+# === macOS ===
+*.DS_Store
+
+# === OS Metadata ===
+ehthumbs.db
+Thumbs.db
+
+# === VS Code ===
+.vscode/
+.history/
+
+# === Git ===
+*.swp
+*.swo
